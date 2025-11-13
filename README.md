@@ -30,18 +30,15 @@
 
 ### 第二步：替换照片（可选）
 
-打开 `index.html` 文件，找到图片标签并替换为你的照片路径：
+打开 `index.html` 文件，找到图片标签并替换为你的照片：
 
 ```html
-<!-- 示例代码（仅供参考，不会执行） -->
 <!-- 外部立方体照片 -->
-<!-- <img src="img/photo1.jpg" class="out_pic" alt="照片"> -->
+<img src="img/photo1.jpg" class="out_pic" alt="照片">
 
 <!-- 内部立方体照片 -->
-<!-- <img src="img/photo2.jpg" class="in_pic" alt="照片"> -->
+<img src="img/photo2.jpg" class="in_pic" alt="照片">
 ```
-
-**实际使用时**，将 `src` 属性中的路径改为你的照片文件路径即可。
 
 > 💡 **提示**：
 > - 将你的照片文件放在 `img/` 文件夹中，然后修改 `src` 属性中的文件名即可
